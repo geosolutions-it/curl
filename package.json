@@ -1,35 +1,44 @@
 {
-	"name": "curl-amd",
-	"version": "0.8.13",
-	"description": "curl.js is small, fast, extensible module loader that handles AMD, CommonJS Modules/1.1, CSS, HTML/text, and legacy scripts.",
-	"keywords": ["curl", "cujo", "amd", "loader", "module", "commonjs", "css", "html", "json"],
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/cujojs/curl"
-	},
-	"bugs": "https://github.com/cujojs/curl/issues",
-	"maintainers": [
-		{
-			"name": "John Hann",
-			"web": "http://unscriptable.com"
-		}
-	],
-	"contributors": [
-		{
-			"name": "John Hann",
-			"web": "http://unscriptable.com"
-		},
-		{
-			"name": "Brian Cavalier",
-			"web": "http://hovercraftstudios.com"
-		}
-	],
-	"main": "./dist/curl-for-ssjs/curl.js",
-	"directories": {
-		"test": "test"
-	},
-	"volo": {
-		"type": "directory"
-	}
+  "name": "@geosolutions/curl-amd",
+  "version": "0.8.14",
+  "description": "curl.js is small, fast, extensible module loader that handles AMD, CommonJS Modules/1.1, CSS, HTML/text, and legacy scripts.",
+  "keywords": [
+    "curl",
+    "cujo",
+    "amd",
+    "loader",
+    "module",
+    "commonjs",
+    "css",
+    "html",
+    "json"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geosolutions-it/curl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cujojs/curl/issues"
+  },
+  "maintainers": [
+    "John Hann (http://unscriptable.com)"
+  ],
+  "contributors": [
+    "John Hann (http://unscriptable.com)",
+    "Brian Cavalier (http://hovercraftstudios.com)"
+  ],
+  "main": "./dist/curl-for-ssjs/curl.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "volo": {
+    "type": "directory"
+  },
+  "homepage": "https://github.com/geosolutions-it/curl#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }

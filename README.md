@@ -1,3 +1,7 @@
+# Fork info
+This repo has been forked because we needed to add [this](https://github.com/geosolutions-it/curl/tree/13170edcbeb9dc55c48ea00e5fec890eec75b59f) fix
+We are going to publish the **release** branch on npm geosolutions registry
+
 curl (cujoJS resource loader)
 =====================
 
